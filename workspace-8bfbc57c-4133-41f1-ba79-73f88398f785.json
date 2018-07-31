@@ -1,0 +1,1199 @@
+{
+    "name": "aluraphone",
+    "intents": [
+        {
+            "intent": "adicionar",
+            "examples": [
+                {
+                    "text": "Quero saber sobre a reserva do meu produto pois ele adicionado ao carrinho."
+                },
+                {
+                    "text": "O produto do meu carrinho já fica automaticamente adicionado?"
+                },
+                {
+                    "text": "O produto adicionado ao carrinho fica adicionado?"
+                },
+                {
+                    "text": "Ao adicionar um produto ao carrinho, ele fica reservado?"
+                }
+            ],
+            "description": "Quando adiciono um produto ao carrinho, ele fica reservado"
+        },
+        {
+            "intent": "entregar",
+            "examples": [
+                {
+                    "text": "Qual o prazo de entrega para o meu smartwatch"
+                },
+                {
+                    "text": "Quando recebo o bagulho?"
+                },
+                {
+                    "text": "Quando recebo a bagaça?"
+                },
+                {
+                    "text": "Quando recebo a parada?"
+                },
+                {
+                    "text": "Qual o prazo de entrega do produto?"
+                },
+                {
+                    "text": "Quanto tempo demora a entrega?"
+                },
+                {
+                    "text": "Quanto tempo demora para o meu produto ser entregue?"
+                },
+                {
+                    "text": "Quando que o produto que eu pedi vai ser entregue?"
+                },
+                {
+                    "text": "Quero saber em quanto tempo meu produto vai ser entregue"
+                },
+                {
+                    "text": "Pedi um produto há mais de 2 meses e quero saber quando será entregue"
+                },
+                {
+                    "text": "Quando o tablet vai ser entregue?"
+                }
+            ],
+            "description": "Quanto tempo demora para o meu produto ser entregue?"
+        },
+        {
+            "intent": "pagamento",
+            "examples": [
+                {
+                    "text": "falha de pagamento"
+                },
+                {
+                    "text": "Não consigo realizar pagamento"
+                },
+                {
+                    "text": "Houve falha no pagamento. O que eu faço?"
+                },
+                {
+                    "text": "O pagamento será realizado antes de eu receber o meu pedido, ou no momento do recebimento do pedido?"
+                },
+                {
+                    "text": "Qual método de pagamento vocês aceitam?"
+                },
+                {
+                    "text": "Meu pagamento está falhando"
+                }
+            ],
+            "description": "pag"
+        },
+        {
+            "intent": "fora-de-escopo",
+            "examples": [
+                {
+                    "text": "Quanto tempo irá levar para que um pagamento indevido seja restituido para mim? E se eu não receber esta valor?"
+                },
+                {
+                    "text": "Eu posso acompanhar o progresso do meu pedido?"
+                },
+                {
+                    "text": "Voces oferecem um serviço de entrega para o proximo dia?"
+                },
+                {
+                    "text": "Posso realizar troca do meu produto?"
+                }
+            ],
+            "description": "Coisas que ainda não foram implementadas"
+        },
+        {
+            "intent": "despedidas",
+            "examples": [
+                {
+                    "text": "bye"
+                },
+                {
+                    "text": "Tchau"
+                },
+                {
+                    "text": "Até logo"
+                },
+                {
+                    "text": "Falow"
+                },
+                {
+                    "text": "bye bye"
+                },
+                {
+                    "text": "Até mais"
+                },
+                {
+                    "text": "Aloha"
+                },
+                {
+                    "text": "Sayonara"
+                },
+                {
+                    "text": "Ciao"
+                },
+                {
+                    "text": "tchau tchau"
+                },
+                {
+                    "text": "Adeus"
+                },
+                {
+                    "text": "good bye"
+                },
+                {
+                    "text": "não, obrigado"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "saudar",
+            "examples": [
+                {
+                    "text": "bom dia"
+                },
+                {
+                    "text": "boa noite meu consagrado"
+                },
+                {
+                    "text": "boa tarde"
+                },
+                {
+                    "text": "boa noite"
+                },
+                {
+                    "text": "bom dia caralho"
+                },
+                {
+                    "text": "boa noite caralho"
+                },
+                {
+                    "text": "bom dia meu consagrado"
+                }
+            ],
+            "description": "saudaçoes"
+        },
+        {
+            "intent": "comprar",
+            "examples": [
+                {
+                    "text": "Você pode me ajudar a comprar um celular?"
+                },
+                {
+                    "text": "Tem como me ajudar a comprar um smartwatch?"
+                },
+                {
+                    "text": "Me ajude a comprar um tablet"
+                },
+                {
+                    "text": "Eu queria comprar um celular."
+                }
+            ],
+            "description": "Você pode me ajudar a comprar um celular?"
+        },
+        {
+            "intent": "agradecimento",
+            "examples": [
+                {
+                    "text": "valeu"
+                },
+                {
+                    "text": "brigado"
+                },
+                {
+                    "text": "obrigada"
+                },
+                {
+                    "text": "foi top"
+                },
+                {
+                    "text": "obrigadissimo"
+                },
+                {
+                    "text": "abs"
+                },
+                {
+                    "text": "valew"
+                },
+                {
+                    "text": "brigada"
+                }
+            ],
+            "description": "brigado"
+        },
+        {
+            "intent": "cumprimentar",
+            "examples": [
+                {
+                    "text": "suave?"
+                },
+                {
+                    "text": "oi, tudo bem"
+                },
+                {
+                    "text": "inhae"
+                },
+                {
+                    "text": "fala viado"
+                },
+                {
+                    "text": "como vai, watson?"
+                },
+                {
+                    "text": "beleza?"
+                },
+                {
+                    "text": "e ai?"
+                },
+                {
+                    "text": "como você está?"
+                },
+                {
+                    "text": "olá"
+                },
+                {
+                    "text": "olar"
+                },
+                {
+                    "text": "tudo bem"
+                },
+                {
+                    "text": "tudo bem?"
+                },
+                {
+                    "text": "oi, tudo bem?"
+                },
+                {
+                    "text": "oi"
+                },
+                {
+                    "text": "eae"
+                }
+            ],
+            "description": "ola"
+        }
+    ],
+    "entities": [
+        {
+            "entity": "cidade",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "Rio de Janeiro",
+                    "metadata": null,
+                    "synonyms": [
+                        "Rio",
+                        "Sou carioca",
+                        "rj",
+                        "carioca",
+                        "da gema",
+                        "gema"
+                    ]
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Salvador",
+                    "metadata": null,
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "São Paulo",
+                    "metadata": null,
+                    "synonyms": [
+                        "Sampa",
+                        "cidade da garoa",
+                        "sp"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "sim-nao",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "ok",
+                    "metadata": null,
+                    "synonyms": [
+                        "sim",
+                        "beleza",
+                        "fechou",
+                        "firmeza",
+                        "pode pá",
+                        "claro",
+                        "de acordo",
+                        "ok"
+                    ]
+                },
+                {
+                    "type": "synonyms",
+                    "value": "nao",
+                    "metadata": null,
+                    "synonyms": [
+                        "nao",
+                        "nope",
+                        "nein",
+                        "num",
+                        "tá loko",
+                        "nem fudendo",
+                        "negativo",
+                        "nem",
+                        "sqn"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "produto",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "tablet",
+                    "metadata": null,
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "smartwatch",
+                    "metadata": null,
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "smartphone",
+                    "metadata": null,
+                    "synonyms": [
+                        "celular",
+                        "cel",
+                        "telefone"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "sys-currency",
+            "values": [],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "marca",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "apple",
+                    "metadata": null,
+                    "synonyms": [
+                        "epou",
+                        "iphone"
+                    ]
+                },
+                {
+                    "type": "synonyms",
+                    "value": "asus",
+                    "metadata": null,
+                    "synonyms": [
+                        "chines"
+                    ]
+                },
+                {
+                    "type": "synonyms",
+                    "value": "lg",
+                    "metadata": null,
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Motorola",
+                    "metadata": null,
+                    "synonyms": [
+                        "lenovo"
+                    ]
+                },
+                {
+                    "type": "synonyms",
+                    "value": "sansung",
+                    "metadata": null,
+                    "synonyms": [
+                        "android",
+                        "sansung",
+                        "galaxy"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null,
+            "fuzzy_match": true
+        },
+        {
+            "entity": "sentimento",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "negativo",
+                    "metadata": null,
+                    "synonyms": [
+                        "tá uma merda",
+                        "uma merda",
+                        "merda",
+                        "horrivel",
+                        "tá pessimo",
+                        "pessimo",
+                        "quero morrer",
+                        "tá ruim"
+                    ]
+                },
+                {
+                    "type": "synonyms",
+                    "value": "positivo",
+                    "metadata": null,
+                    "synonyms": [
+                        "vou bem",
+                        "estou bem",
+                        "to bem",
+                        "tudo certo",
+                        "tudo a pampa",
+                        "to suave",
+                        "suavão"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null
+        }
+    ],
+    "language": "pt-br",
+    "metadata": {
+        "api_version": {
+            "major_version": "v1",
+            "minor_version": "2017-05-26"
+        }
+    },
+    "description": "Workspace para atendimento do site aluraphone",
+    "dialog_nodes": [
+        {
+            "type": "standard",
+            "title": "Avaliando condições",
+            "output": {},
+            "parent": "node_3_1532632125877",
+            "context": null,
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "next_step": null,
+            "conditions": "true",
+            "description": null,
+            "dialog_node": "node_8_1532982419875",
+            "digress_out": "allow_all",
+            "previous_sibling": null
+        },
+        {
+            "type": "event_handler",
+            "title": null,
+            "output": {},
+            "parent": "slot_7_1530292217227",
+            "context": {
+                "sn2": "@sim-nao"
+            },
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@sim-nao",
+            "event_name": "input",
+            "description": null,
+            "dialog_node": "handler_8_1530292217227",
+            "previous_sibling": "handler_9_1530292217228"
+        },
+        {
+            "type": "event_handler",
+            "title": null,
+            "output": {
+                "text": "Eu tenho um <a href=\"https://www.samsung.com/br/smartphones/galaxy-j7-prime-g610m/SM-G610MZKSZTO/\" target=\"_blank\">celular</a> da $marca que é até $moeda reais. Gostaria de adicioná-lo ao carrinho?"
+            },
+            "parent": "slot_7_1530292217227",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": null,
+            "event_name": "focus",
+            "description": null,
+            "dialog_node": "handler_9_1530292217228",
+            "previous_sibling": null
+        },
+        {
+            "type": "slot",
+            "title": null,
+            "output": {},
+            "parent": "node_4_1530206910857",
+            "context": null,
+            "metadata": {},
+            "variable": "$sn",
+            "next_step": null,
+            "conditions": null,
+            "description": null,
+            "dialog_node": "slot_5_1530206939626",
+            "previous_sibling": "node_4_1530300626422"
+        },
+        {
+            "type": "slot",
+            "title": null,
+            "output": {},
+            "parent": "node_4_1530206910857",
+            "context": null,
+            "metadata": {},
+            "variable": "$sn2",
+            "next_step": null,
+            "conditions": null,
+            "description": null,
+            "dialog_node": "slot_7_1530292217227",
+            "previous_sibling": "slot_4_1530292141672"
+        },
+        {
+            "type": "response_condition",
+            "title": null,
+            "output": {
+                "text": {
+                    "values": [
+                        "Posso ajudar em mais alguma coisa?"
+                    ]
+                }
+            },
+            "parent": "node_4_1530206910857",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@sim-nao:nao",
+            "description": null,
+            "dialog_node": "node_4_1530300626422",
+            "previous_sibling": "node_3_1530300591691"
+        },
+        {
+            "type": "slot",
+            "title": null,
+            "output": {},
+            "parent": "node_4_1530206910857",
+            "context": null,
+            "metadata": {},
+            "variable": "$marca",
+            "next_step": null,
+            "conditions": null,
+            "description": null,
+            "dialog_node": "slot_1_1530291470198",
+            "previous_sibling": "slot_5_1530206939626"
+        },
+        {
+            "type": "slot",
+            "title": null,
+            "output": {},
+            "parent": "node_4_1530206910857",
+            "context": null,
+            "metadata": {},
+            "variable": "$moeda",
+            "next_step": null,
+            "conditions": null,
+            "description": null,
+            "dialog_node": "slot_4_1530292141672",
+            "previous_sibling": "slot_1_1530291470198"
+        },
+        {
+            "type": "response_condition",
+            "title": null,
+            "output": {
+                "text": {
+                    "values": [
+                        "O produto foi adicionado ao seu carrinho"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_4_1530206910857",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@sim-nao:ok",
+            "description": null,
+            "dialog_node": "node_3_1530300591691",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Sentimento negativo",
+            "output": {
+                "text": {
+                    "values": [
+                        "Se tá ruim, pode ficar pior"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_2_1531834228381",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@sentimento:negativo",
+            "description": null,
+            "dialog_node": "node_1_1531918142975",
+            "previous_sibling": "node_5_1531834795286"
+        },
+        {
+            "type": "response_condition",
+            "title": null,
+            "output": {
+                "text": {
+                    "values": [
+                        "oi"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_2_1531834228381",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "input.text == 'oi'",
+            "description": null,
+            "dialog_node": "node_3_1531834435414",
+            "previous_sibling": "node_1_1531918142975"
+        },
+        {
+            "type": "response_condition",
+            "title": null,
+            "output": {
+                "text": {
+                    "values": [
+                        "Estou bem sim e você?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_2_1531834228381",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "input.text == 'oi, tudo bem?'",
+            "description": null,
+            "dialog_node": "node_4_1531834525979",
+            "previous_sibling": "node_3_1531834435414"
+        },
+        {
+            "type": "standard",
+            "title": "Sentimento positivo",
+            "output": {
+                "text": {
+                    "values": [
+                        "Que otimo!",
+                        "Muito bom!"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_2_1531834228381",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@sentimento:positivo",
+            "description": null,
+            "dialog_node": "node_5_1531834795286",
+            "previous_sibling": null
+        },
+        {
+            "type": "event_handler",
+            "title": null,
+            "output": {},
+            "parent": "slot_4_1530292141672",
+            "context": {
+                "moeda": "@sys-currency"
+            },
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@sys-currency",
+            "event_name": "input",
+            "description": null,
+            "dialog_node": "handler_5_1530292141672",
+            "previous_sibling": "handler_6_1530292141672"
+        },
+        {
+            "type": "event_handler",
+            "title": null,
+            "output": {
+                "text": "E você tem algum valor máximo para comprar esse produto?"
+            },
+            "parent": "slot_4_1530292141672",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": null,
+            "event_name": "focus",
+            "description": null,
+            "dialog_node": "handler_6_1530292141672",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Rio de Janeiro ou Salvador",
+            "output": {
+                "text": {
+                    "values": [
+                        "Em até 20 dias uteis voce recebe o produto",
+                        "Em até 20 dias já é",
+                        "Em 20 dias tá sendo"
+                    ],
+                    "selection_policy": "random"
+                }
+            },
+            "parent": "node_2_1529511395049",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@cidade:(Rio de Janeiro) || @cidade:Salvador",
+            "description": null,
+            "dialog_node": "node_4_1529517319402",
+            "previous_sibling": "node_3_1529517101321"
+        },
+        {
+            "type": "standard",
+            "title": "São Paulo",
+            "output": {
+                "text": {
+                    "values": [
+                        "Em até 15 dias uteis voce terá o produto em casa."
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_2_1529511395049",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@cidade:(São Paulo)",
+            "description": null,
+            "dialog_node": "node_3_1529517101321",
+            "previous_sibling": null
+        },
+        {
+            "type": "event_handler",
+            "title": null,
+            "output": {
+                "text": "Legal, vou te ajudar. Irei fazer algumas perguntas para selecionar o melhor produto para você, ok?"
+            },
+            "parent": "slot_5_1530206939626",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": null,
+            "event_name": "focus",
+            "description": null,
+            "dialog_node": "handler_7_1530206939626",
+            "previous_sibling": "handler_6_1530206939626"
+        },
+        {
+            "type": "event_handler",
+            "title": null,
+            "output": {},
+            "parent": "slot_5_1530206939626",
+            "context": {
+                "sn": "@sim-nao"
+            },
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@sim-nao",
+            "event_name": "input",
+            "description": null,
+            "dialog_node": "handler_6_1530206939626",
+            "previous_sibling": null
+        },
+        {
+            "type": "response_condition",
+            "title": null,
+            "output": {
+                "text": {
+                    "values": [
+                        "Boa noite, em que eu posso ajudar?",
+                        "Boa noite meu consagrado, manda 2 pois a morena me magou. "
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "Bem-vindo",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "now().before('00:00:00')",
+            "description": null,
+            "dialog_node": "node_7_1532980077887",
+            "previous_sibling": "node_6_1532979967958"
+        },
+        {
+            "type": "response_condition",
+            "title": null,
+            "output": {
+                "text": {
+                    "values": [
+                        "Boa tarde, em que eu posso ajudar?",
+                        "Boa tarde caralho!"
+                    ],
+                    "selection_policy": "random"
+                }
+            },
+            "parent": "Bem-vindo",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "now().before('18:00:00')",
+            "description": null,
+            "dialog_node": "node_6_1532979967958",
+            "previous_sibling": "node_5_1532979820751"
+        },
+        {
+            "type": "response_condition",
+            "title": null,
+            "output": {
+                "text": {
+                    "values": [
+                        "Bom dia, posso meter na sua esposa?",
+                        "Bom dia, voce quer meter na minha esposa?",
+                        "Bom dia caralho!"
+                    ],
+                    "selection_policy": "random"
+                }
+            },
+            "parent": "Bem-vindo",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "now().before('12:00:00')",
+            "description": null,
+            "dialog_node": "node_5_1532979820751",
+            "previous_sibling": null
+        },
+        {
+            "type": "event_handler",
+            "title": null,
+            "output": {
+                "text": "Você tem preferência por alguma marca de celular?"
+            },
+            "parent": "slot_1_1530291470198",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": null,
+            "event_name": "focus",
+            "description": null,
+            "dialog_node": "handler_3_1530291470198",
+            "previous_sibling": "handler_2_1530291470198"
+        },
+        {
+            "type": "event_handler",
+            "title": null,
+            "output": {},
+            "parent": "slot_1_1530291470198",
+            "context": {
+                "marca": "@marca"
+            },
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@marca",
+            "event_name": "input",
+            "description": null,
+            "dialog_node": "handler_2_1530291470198",
+            "previous_sibling": null
+        },
+        {
+            "type": "response_condition",
+            "title": null,
+            "output": {
+                "text": {
+                    "values": [
+                        "Me desculpe, mas ainda não posso responder perguntas sobre esse assunto."
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_8_1532982419875",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "intents[0].confidence < 0.5",
+            "description": null,
+            "dialog_node": "node_10_1532982749964",
+            "previous_sibling": "node_9_1532982461442"
+        },
+        {
+            "type": "response_condition",
+            "title": null,
+            "output": {
+                "text": {
+                    "values": [
+                        "Ainda não fui treinado para responder perguntas deste assunto. Mas posso ajudar com:  <ul><li>compra de produto</li><li>prazo de entrega</li> <li>reserva de produto</li></ul>."
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_8_1532982419875",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "intents[0].confidence > 0.5",
+            "description": null,
+            "dialog_node": "node_9_1532982461442",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Escolher cidade",
+            "output": {
+                "text": {
+                    "values": [
+                        "Qual é a sua cidade?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": null,
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "#entregar",
+            "description": null,
+            "dialog_node": "node_2_1529511395049",
+            "previous_sibling": "node_1_1529588219082"
+        },
+        {
+            "type": "standard",
+            "title": "Em outros casos",
+            "output": {
+                "text": {
+                    "values": [
+                        "Eu não entendi. Você pode tentar reformular a frase.",
+                        "Você pode reformular sua afirmação? Eu não estou entendendo.",
+                        "Eu não entendi o sentido.",
+                        "Num num intindi o que voce falou.",
+                        "Tira a rola da boca e fala direito, caralho",
+                        "Não manjo disso"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": null,
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "anything_else",
+            "description": null,
+            "dialog_node": "Em outros casos",
+            "previous_sibling": "node_3_1532632125877"
+        },
+        {
+            "type": "standard",
+            "title": "despedidas",
+            "output": {
+                "acao": "Encerrar",
+                "text": {
+                    "values": [
+                        "Tchau.",
+                        "Falow!"
+                    ],
+                    "selection_policy": "random"
+                }
+            },
+            "parent": null,
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "#despedidas",
+            "description": null,
+            "dialog_node": "node_1_1531832682524",
+            "previous_sibling": "node_5_1530047845701"
+        },
+        {
+            "type": "standard",
+            "title": "Agradecimento",
+            "output": {
+                "text": {
+                    "values": [
+                        "Posso ajudar com mais alguma coisa?",
+                        "De nada",
+                        "Pode pá",
+                        "magina",
+                        "valeu ae",
+                        "Da linha então...."
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": null,
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "#agradecimento",
+            "digress_in": "does_not_return",
+            "description": null,
+            "dialog_node": "node_5_1530047845701",
+            "previous_sibling": "node_4_1530206910857"
+        },
+        {
+            "type": "standard",
+            "title": "Reserva de produto",
+            "output": {
+                "text": {
+                    "values": [
+                        "Não. O produto só é adicionado ao carrinho após a finalização do pedido."
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": null,
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "#adicionar",
+            "description": null,
+            "dialog_node": "node_1_1529510977141",
+            "previous_sibling": "node_2_1531834228381"
+        },
+        {
+            "type": "frame",
+            "title": "Compra de produto com espaços",
+            "output": {},
+            "parent": null,
+            "context": null,
+            "metadata": {
+                "fallback": "leave",
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "next_step": null,
+            "conditions": "#comprar",
+            "digress_in": "does_not_return",
+            "description": null,
+            "dialog_node": "node_4_1530206910857",
+            "digress_out": "allow_all",
+            "previous_sibling": "node_2_1529511395049",
+            "digress_out_slots": "not_allowed"
+        },
+        {
+            "type": "standard",
+            "title": "Fora de escopo",
+            "output": {
+                "text": {
+                    "values": [],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": null,
+            "context": null,
+            "metadata": {},
+            "next_step": {
+                "behavior": "jump_to",
+                "selector": "condition",
+                "dialog_node": "node_8_1532982419875"
+            },
+            "conditions": "#fora-de-escopo",
+            "description": null,
+            "dialog_node": "node_3_1532632125877",
+            "previous_sibling": "node_1_1532713903803"
+        },
+        {
+            "type": "standard",
+            "title": "Prazo de entrega de produto com cidade",
+            "output": {
+                "text": {
+                    "values": [],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": null,
+            "context": null,
+            "metadata": {},
+            "next_step": {
+                "behavior": "jump_to",
+                "selector": "condition",
+                "dialog_node": "node_3_1529517101321"
+            },
+            "conditions": "#entregar && @cidade",
+            "digress_in": "does_not_return",
+            "description": null,
+            "dialog_node": "node_1_1529588219082",
+            "previous_sibling": "node_1_1529510977141"
+        },
+        {
+            "type": "standard",
+            "title": "Cumprimentos",
+            "output": {},
+            "parent": null,
+            "context": null,
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "next_step": null,
+            "conditions": "#cumprimentar",
+            "digress_in": "does_not_return",
+            "description": null,
+            "dialog_node": "node_2_1531834228381",
+            "digress_out": "allow_all",
+            "previous_sibling": "Bem-vindo"
+        },
+        {
+            "type": "standard",
+            "title": "Falha no pagamento",
+            "output": {
+                "text": {
+                    "values": [
+                        "Se houve falha no seu pagamento, recomendamos que você entre em contato com a nossa Equipe de Atendimento através da nossa Central de Atendimento."
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": null,
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "#pagamento",
+            "digress_in": "does_not_return",
+            "description": null,
+            "dialog_node": "node_1_1532713903803",
+            "previous_sibling": "node_1_1531832682524"
+        },
+        {
+            "type": "standard",
+            "title": "Bem-vindo",
+            "output": {},
+            "parent": null,
+            "context": null,
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "next_step": null,
+            "conditions": "welcome",
+            "digress_in": "does_not_return",
+            "description": null,
+            "dialog_node": "Bem-vindo",
+            "digress_out": "allow_all",
+            "previous_sibling": null
+        }
+    ],
+    "workspace_id": "8bfbc57c-4133-41f1-ba79-73f88398f785",
+    "counterexamples": [],
+    "system_settings": {
+        "disambiguation": {
+            "prompt": "Você quis dizer:",
+            "none_of_the_above_prompt": "Nenhuma das anteriores"
+        },
+        "human_agent_assist": {
+            "prompt": "Você quis dizer:"
+        }
+    },
+    "learning_opt_out": false
+}

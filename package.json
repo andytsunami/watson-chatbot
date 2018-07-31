@@ -1,0 +1,15 @@
+{
+  "name": "watson-chatbot",
+  "version": "1.0.0",
+  "description": "Um codigo para se comunicar com o servico de conversation",
+  "main": "aplicacao-conversation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "André Vasconcelos",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.1.6",
+    "watson-developer-cloud": "^3.7.1"
+  }
+}
